@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO 核心标签 -->
+  <title>T.F/Photographer — 三四摄影作品集 | 风光·街拍·人像·自然</title>
+  <meta name="description" content="三四（T.F）是一位热爱到处拍拍的摄影师，擅长风光、街拍、人像与自然摄影。浏览精选作品，感受光影之间的故事。">
+  <meta name="keywords" content="三四,摄影师,摄影作品集,风光摄影,街拍,人像摄影,自然摄影,T.F,Photographer,独立摄影师">
+  <meta name="author" content="三四">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tf-photographer.com/">
+
+  <!-- Open Graph (社交分享) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="T.F/Photographer — 三四摄影作品集">
+  <meta property="og:description" content="一位喜欢到处拍拍的摄影师。精选作品，记录光影之间的故事。">
+  <meta property="og:url" content="https://tf-photographer.com/">
+  <meta property="og:site_name" content="T.F/Photographer">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="T.F/Photographer — 三四摄影作品集">
+  <meta name="twitter:description" content="一位喜欢到处拍拍的摄影师。精选作品，记录光影之间的故事。">
+
+  <!-- 结构化数据 JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "三四",
+    "alternateName": "T.F",
+    "url": "https://tf-photographer.com/",
+    "jobTitle": "独立摄影师",
+    "description": "一位喜欢到处拍拍的摄影师，擅长风光、街拍、人像与自然摄影。",
+    "telephone": "+86-147-2760-7114",
+    "sameAs": []
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">T.F/Photographer</a>
+      <ul class="nav-links">
+        <li><a href="#about">关于</a></li>
+        <li><a href="#gallery">作品</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 首屏 Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Photography Portfolio</p>
+      <h1 class="hero-title">用镜头<br>记录世界</h1>
+      <p class="hero-desc">每一帧光影，都是一段故事</p>
+      <a href="#gallery" class="hero-btn">浏览作品</a>
+    </div>
+  </header>
+
+  <!-- 关于我 -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-image-placeholder">
+            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="60" cy="45" r="22" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 105c0-22 18-40 40-40s40 18 40 40" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <span>个人照片</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">关于我</h2>
+          <p class="about-name">三四 / T.F</p>
+          <p class="about-role">独立摄影师 · 视觉创作者</p>
+          <div class="about-divider"></div>
+          <p class="about-bio">
+            一位喜欢到处拍拍的摄影师。擅长风光、街拍、人像与自然摄影，
+            相信好的照片不只是记录，更是情感与光影的对话。
+          </p>
+          <p class="about-bio">
+            喜欢背着相机穿梭在城市与自然之间，用独特的视角捕捉那些稍纵即逝的瞬间。
+            每一次按下快门，都是与世界的一次深度对话。
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">年摄影经验</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5000+</span>
+              <span class="stat-label">作品产出</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">展览/合作</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品集 -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title section-title-center">作品集</h2>
+      <p class="section-desc">精选作品，记录光影之间的故事</p>
+
+      <!-- 分类筛选 -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="landscape">风光</button>
+        <button class="filter-btn" data-filter="street">街拍</button>
+        <button class="filter-btn" data-filter="portrait">人像</button>
+        <button class="filter-btn" data-filter="nature">自然</button>
+      </div>
+
+      <!-- 照片网格 -->
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-category="landscape">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/mountain/800/600')"></div>
+          <div class="gallery-overlay">
+            <h3>山间晨雾</h3>
+            <p>风光 · 2024</p>
+          </div>
+        </div>
+        <div class="gallery-item tall" data-category="street">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/city88/600/900')"></div>
+          <div class="gallery-overlay">
+            <h3>城市脉搏</h3>
+            <p>街拍 · 2024</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="portrait">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/face22/800/600')"></div>
+          <div class="gallery-overlay">
+            <h3>光影肖像</h3>
+            <p>人像 · 2024</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/forest7/800/600')"></div>
+          <div class="gallery-overlay">
+            <h3>密林深处</h3>
+            <p>自然 · 2023</p>
+          </div>
+        </div>
+        <div class="gallery-item wide" data-category="landscape">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/ocean55/1200/600')"></div>
+          <div class="gallery-overlay">
+            <h3>海天一色</h3>
+            <p>风光 · 2023</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="street">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/alley9/800/600')"></div>
+          <div class="gallery-overlay">
+            <h3>巷弄时光</h3>
+            <p>街拍 · 2023</p>
+          </div>
+        </div>
+        <div class="gallery-item tall" data-category="nature">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/flower3/600/900')"></div>
+          <div class="gallery-overlay">
+            <h3>花开无声</h3>
+            <p>自然 · 2023</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="portrait">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/people8/800/600')"></div>
+          <div class="gallery-overlay">
+            <h3>街角故事</h3>
+            <p>人像 · 2023</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="landscape">
+          <div class="gallery-img" style="background-image: url('https://picsum.photos/seed/sunset12/800/600')"></div>
+          <div class="gallery-overlay">
+            <h3>落日余晖</h3>
+            <p>风光 · 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系方式 -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title section-title-center">联系我</h2>
+      <p class="section-desc">期待与你交流，欢迎合作洽谈</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>邮箱</h4>
+              <p>484757634@qq.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>电话</h4>
+              <p>14727607114</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>所在地</h4>
+              <p>中国</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-qr">
+          <div class="qr-card">
+            <div class="qr-placeholder" id="qrPlaceholder">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="10" width="30" height="30" rx="3" stroke="currentColor" stroke-width="3"/>
+                <rect x="60" y="10" width="30" height="30" rx="3" stroke="currentColor" stroke-width="3"/>
+                <rect x="10" y="60" width="30" height="30" rx="3" stroke="currentColor" stroke-width="3"/>
+                <rect x="17" y="17" width="16" height="16" rx="1" fill="currentColor"/>
+                <rect x="67" y="17" width="16" height="16" rx="1" fill="currentColor"/>
+                <rect x="17" y="67" width="16" height="16" rx="1" fill="currentColor"/>
+                <rect x="60" y="60" width="10" height="10" rx="1" fill="currentColor"/>
+                <rect x="75" y="75" width="15" height="15" rx="1" fill="currentColor"/>
+                <rect x="60" y="75" width="10" height="10" rx="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="qr-label">微信扫码添加</p>
+            <p class="qr-hint">微信号：Ch255180</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-logo">T.F/Photographer</p>
+        <p class="footer-copy">&copy; 2024 T.F/Photographer. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="微博">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10.098 20.323c-3.977.391-7.414-1.406-7.672-4.02-.259-2.609 2.759-5.047 6.74-5.441 3.979-.394 7.413 1.404 7.671 4.018.259 2.6-2.759 5.049-6.739 5.443zM9.05 17.219c-.384.616-1.208.884-1.829.602-.612-.279-.793-.991-.406-1.593.379-.595 1.176-.861 1.793-.583.631.283.822.985.442 1.574zm1.27-1.627c-.141.237-.449.353-.689.253-.236-.09-.307-.361-.168-.585.14-.227.436-.346.672-.248.239.09.315.36.185.58zm.176-2.719c-1.893-.493-4.033.45-4.857 2.118-.836 1.704-.026 3.591 1.886 4.21 1.983.642 4.318-.341 5.132-2.145.8-1.752-.145-3.71-2.161-4.183zM17.614 3.68c-1.008-.367-2.141-.09-2.836.649l-.091.098c-.097.107-.089.273.018.37l.735.662c.107.097.273.089.37-.018l.047-.052c.317-.342.8-.453 1.227-.292.434.163.718.557.718 1.012v.053c0 .143.116.259.259.259h.981c.143 0 .259-.116.259-.259v-.053c0-.965-.578-1.832-1.687-2.437z"/><path d="M20.232 2.418c-2.09-1.271-4.724-1.024-6.452.615l-.147.14c-.097.093-.1.247-.007.344l.714.691c.093.09.243.093.336.007l.094-.088c1.063-.997 2.636-1.2 3.928-.514 1.327.706 2.067 2.148 1.866 3.586l-.012.084c-.02.142.08.273.222.293l.975.139c.142.02.273-.08.293-.222l.012-.084c.294-2.108-.742-4.186-2.822-5.491z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="500px">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.433 9.01A2.994 2.994 0 005.5 12c0 1.656 1.344 3 3 3 .825 0 1.57-.334 2.112-.874a2.99 2.99 0 001.388-2.126c0-1.656-1.344-3-3-3-.6 0-1.16.177-1.633.481l-.434.529zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="豆瓣">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 4.5h15v2h-15zm0 4.5h15v2h-15zm-1.5 4.5h18v2h-18zm1.5 4.5h15v2h-15z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 灯箱 -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="关闭">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="作品大图">
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="admin.js"></script>
+
+</body>
+</html>
